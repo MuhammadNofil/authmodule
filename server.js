@@ -1,6 +1,7 @@
 require("dotenv").config();
 const app = require("./app");
 const moongose=require('mongoose')
+require('./passport/GoogleStartegy')
 
 
 const init = async()=>{
